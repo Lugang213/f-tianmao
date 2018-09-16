@@ -1,0 +1,231 @@
+
+body{
+	font-family: "宋体","微软雅黑",Arail,Tabhoma;
+}
+.tm-login{
+	width:auto;
+	min-width:1190px;
+}
+.tm-login .login-head{
+	padding: 22px 0px;
+    height: 44px;
+    width: 1190px;
+    margin: auto;
+}
+
+.tm-login .login-con{
+	position: relative;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.tm-login .login-head .tm-logo {
+    margin-top: 8px;
+    width: 190px;
+}
+.tm-login .login-con-banner{
+	width: 100%;
+    background-color: rgb(255, 48, 137);
+}
+.login-con-banner .inner{
+    position: relative;
+    width: 1190px;
+    margin: auto;
+}
+}
+.tm-login .login-con-banner .inner img{
+	display: block;
+	margin:auto;
+}
+.tm-login .login-con-banner .inner a{
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 75px;
+    width: 630px;
+    height: 440px;
+    border: none;
+    outline: none;
+}
+/*登录表单*/
+.login-con .login-form{
+	position: absolute;
+    top: 91px;
+    right: 14.8%;
+    background: #fff;
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+}
+.login-con .form-cont{
+	position: relative;
+}
+.login-switch {
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    position: absolute;
+    right: -6px;
+    top: 12px;  
+}
+.login-switch i img{
+	width:41px;
+	height:41px;
+}
+/*扫码登录s*/
+.login-box,.static-form{
+	overflow: hidden;
+	padding:25px 26px 20px;
+}
+.poptip {
+    border: 1px solid #f3d995;
+    height: 16px;
+    width:105px;
+    line-height: 16px;
+    padding: 5px 20px 5px 15px;
+    background: #fefcee;
+    position: relative;
+    left:130px;
+    top:-20px;
+}
+.poptip-content {
+    color: #df9c1f;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.poptip-content img{
+	width:12px;
+	height:16px;
+	vertical-align: bottom;
+	margin-right:8px;
+}
+
+.tip-icon-gt{
+	position: absolute;
+	right:-9px;
+	z-index:10;
+}
+.login-title {
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    color: #3c3c3c;
+    margin-top: 15px;
+    margin-left:20px;
+    padding-bottom: 0px;
+    font-weight:bold;
+}
+.qrcode{
+	width:140px;
+	height:140px;
+	margin:12% 30%;
+}
+.qrcode-cont {
+    overflow: hidden;
+    width: 188px;
+    margin: -32px auto;
+}
+.qrcode-cont p {
+    width: 144px;
+    line-height: 18px;
+    color: #6c6c6c;
+    font-size: 12px;
+    float: right;
+}
+.ft-gray {
+    color: #9c9c9c;
+}
+.qrcode-cont p a{
+	color:#ff0036;
+}
+.login-links{
+	float: right;
+	margin:45px 33px;
+}
+.login-links a{
+	color:#6c6c6c;
+	font-weight: bold;
+}
+/*密码登录*/
+.login-text {
+    width: 240px;
+    font-size: 14px;
+    line-height: 18px;
+    height: 18px;
+    padding: 11px 8px 11px 50px;
+    border: 1px solid #ddd;
+    margin-top:25px;
+    padding-left:50px;
+    
+}
+.static-form .lpoptip{
+	top:0;
+}
+.user-icon,.pass-icon{
+	position: absolute;
+	top:26px;
+	left:0;
+}
+.user-ipt,.pass-ipt{
+	position: relative;
+}
+.pass-icon{
+	top:25px;
+}
+.static-form form button{
+	width: 300px;
+    height: 42px;
+    line-height: 42px;
+    background-color: #ff0036;
+    border:none;
+    border-radius: 3px;
+    margin-top:25px;
+    color:#fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.static-form form button:hover{
+	opacity: 0.8;
+}
+.login-links a:hover{
+	color:#ff0036;
+}
+/*页脚*/
+.footer{
+    width:100%;
+    position: relative;
+    overflow: hidden;
+}
+.ft-con{
+    width:1190px;
+    min-height: 177px;
+    text-align: left;
+    margin:0 auto;
+}
+.ft-con p{
+    line-height: 30px;
+}
+.ft-con p a{
+    color:#000;
+    margin-right: 3px;
+}
+.footer-copyright{
+    line-height: 20px;
+    color:#666;
+}
+.footer-copyright a{
+    color:#999;
+    margin-right:65px;
+}
+.footer-copyright b{
+    display: block;
+     color:#999;
+}
+.footer-copyright img{
+    vertical-align: top;
+}
+
+/*验证*/
+.tips p{
+    text-align: center;
+}

@@ -1,0 +1,1206 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>天猫-详情页</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/details.css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/details.js"></script>
+	<style>
+	
+
+</style>
+</head>
+<body>
+	<!-- 详情页 -->
+	<div class="details-wrap">
+		<!-- 头部 -->
+		<div class="details-head">
+			<!-- 顶部导航 -->
+			<div class="head-top-nav">
+				<div id="tm-h-nav">
+					<div class="h-nav-lt">
+						<p id="login-info">
+							<em>喵，欢迎来天猫</em>
+							<a href="" class="tm-login">请登录</a>
+							<a href="" class="tm-register">免费注册</a>
+						</p>
+						<ul class="nav-menu">
+							<li class="lis_item1">
+								<div class="sn-menu">
+									<a href="" class="menu-hd">我的淘宝<i></i></a>
+									<div class="menu-no">
+										<a href="">已买到的宝贝</a>
+										<a href="">已卖出的宝贝</a>
+									</div>
+								</div>
+							</li>
+							<li class="lis_item2 lis-icon">
+								<i class="cart"></i>
+								<a href="">购物车<span>0</span>件</a>
+							</li>
+							<li class="lis_item3">
+								<div class="sn-menu">
+									<a href="" class="menu-hd">收藏夹<i></i></a>
+									<div class="menu-no">
+										<a href="">收藏的宝贝</a>
+										<a href="">收藏的店铺</a>
+									</div>
+								</div>
+							</li>
+							<li class="sn-separator"></li>
+							<li class="lis_item4 lis-icon">
+								<i></i>
+								<a href="">手机版</a>
+							</li>
+							<li class="lis_item5">
+								<a href="">淘宝网</a>
+							</li>
+							<!-- 商家支持 -->
+							<li class="lis_item6">
+								<div class="sn-menu">
+									<a href="" class="menu-hd">商家支持<i></i></a>
+									<div class="menu-no">
+										<ul>
+											<li>
+												<h3>商家：</h3>
+												<a href="">商家中心</a>
+												<a href="">天猫规则</a>
+												<a href="">商家入驻</a>
+												<a href="">运营服务</a>
+												<a href="">商家品控</a>
+												<a href="">商家工具</a>
+												<a href="">天猫智库</a>
+												<a href="">喵言喵语</a>
+											</li>
+											<li>
+												<h3>帮助：</h3>
+												<a href="">帮助中心</a>
+												<a href="">问商友</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<!-- 网站导航 -->
+							<li class="lis_item7 lis-icon">
+								<div class="sn-menu">
+									
+									<a href="" class="menu-hd"><b></b>网站导航<i></i></a>
+									<div class="menu-no">
+										<div class="site-cont site-hot">
+											<h2>热点推荐<span>Hot</span></h2>
+										    <ul class="site-list">
+										        <li>
+										            <a href="">天猫超市</a>
+										        </li>
+										        <li>
+										            <a href="">喵鲜生</a>
+										        </li>
+										        <li>
+										            <a href="">科技新品<i class="sn-sitemap-icon sn-sitemap-icon-new"></i> </a>
+										        </li>
+										        <li>
+										            <a href="">女装新品<i class="sn-sitemap-icon  sn-sitemap-icon-hot "></i> </a></li>
+										        <li>
+										            <a href="">酷玩街</a>
+										        </li>
+										        <li>
+										            <a href="">内衣新品<i class="sn-sitemap-icon  sn-sitemap-icon-hot ">
+										            	
+										            </i> 
+										        	</a>
+										        </li>
+										        <li>
+										            <a href="">试美妆</a>
+										        </li>
+										        <li>
+										            <a href="">运动新品</a>
+										        </li>
+										        <li>
+										            <a href="">时尚先生<i class="sn-sitemap-icon  sn-sitemap-icon-hot "></i> </a></li>
+										        <li>
+										            <a href="">精明妈咪</a>
+										        </li>
+										        <li>
+										            <a href="">吃乐会<i class="sn-sitemap-icon sn-sitemap-icon-new sn-sitemap-icon-eat"></i> </a></li>
+										        <li>
+										            <a href="">企业采购</a>
+										        </li>
+										        <li>
+										            <a href="">会员积分</a>
+										        </li>
+										        <li>
+										            <a href="">天猫国际</a>
+										        </li>
+										        <li>
+										            <a href="">品质频道</a>
+										        </li>
+										    </ul>  
+										</div>
+										<div class="site-cont site-market">
+										    <h2>行业市场<span>Market</span></h2>
+										    <ul class="site-list">
+										        <li><a href="">美妆</a></li>
+										        <li><a href="">电器</a></li>
+										        <li><a href="">女装<i class="sn-sitemap-icon  sn-sitemap-icon-hot "></i> </a></li>
+										        <li><a href="">男装<i class="sn-sitemap-icon  sn-sitemap-icon-hot "></i> </a></li>
+										        <li><a href="">女鞋</a></li>
+										        <li><a href="">男鞋</a></li>
+										        <li><a href="">内衣<i class="sn-sitemap-icon  sn-sitemap-icon-hot "></i> </a></li>
+										        <li><a href="">箱包</a></li>
+										        <li><a href="">运动</a></li>
+										        <li><a href="">母婴</a></li>
+										        <li><a href="">家装</a></li>
+										        <li><a href="">医药</a></li>
+										        <li><a href="">食品</a></li>
+										        <li><a href="">配饰<i class="sn-sitemap-icon sn-sitemap-icon-new"></i></a></li>
+										        <li><a href="">汽车</a></li>
+										    </ul>
+										</div>
+										<div class="site-cont site-help">
+											<h2 >服务指南<span>Help</span></h2>
+										    <ul class="site-list">
+										        <li>
+										            <a href="">帮助中心 </a>
+										        </li>
+										        <li><a href="">品质保障 </a></li>
+										        <li><a href="">特色服务 </a></li>
+										        <li><a href="">7天退换货 </a></li>
+										    </ul>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>	
+				</div>
+			</div>
+			
+			<!-- 顶部logo 搜索框 -->
+			<div class="head-cont">
+				<!-- 左边logo -->
+				<a class="det-logo">
+					<img src="images/register-logo.png" alt="">
+				</a>
+				<!-- 右边搜索 -->
+				<div class="det-gt-ipt">
+					<div class="gt-banner">
+						<img class="banner1" src="images/gt-banner1.png" alt="">
+						<a href=""><img src="images/gt-banner2.png" alt=""></a>
+					</div>
+					<!-- 搜索 -->
+					<div class="mall-search">
+						<form action="" class="search-form">
+							<input type="text" placeholder="搜索 天猫 商品/品牌/店铺">
+							<button>搜索</button>
+						</form>
+						<ul class="s-hot-query">
+							<li class="" style="border:none">
+								<a href="javascript:;" >甜虾</a>
+							</li>
+							<li class="">
+								<a href="javascript:;">海鲜</a>
+							</li>
+							<li class="">
+								<a href="javascript:;">喵鲜生海鲜</a>
+							</li>
+							<li class="">
+								<a href="javascript:;">鲜有汇聚</a>
+							</li>
+							<li class="">
+								<a href="javascript:;">甜虾刺身</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 导航 -->
+		<div class="det-nav">
+			<ul>
+				<li class="first-li">
+					<a href="">首页</a>
+				</li>
+				<li>
+					<a href="">当地水果</a>
+				</li>
+				<li>
+					<a href="">新鲜水产</a>
+				</li>
+				<li>
+					<a href="">放心鲜肉</a>
+				</li>
+			</ul>
+		</div>
+		<!-- 内容 -->
+		<div class="det-cont">
+			<!-- 介绍 -->
+			<dvi class="det-item">
+				<!--大图-->
+						<div id="big">
+							<img src="images/big1.jpg" id="big_pic">
+						</div>
+				<div class="lt-con">
+
+					<!-- 放大镜 -->
+					<div class="faj">
+						<!--小图-->
+						<div id="small">
+							<img src="images/big1.jpg" id="small_pic">
+							<div id="move"></div>
+						</div>
+						
+						<!--点击li切换图片-->
+						<ul id="dian">
+							<li><img src="images/big1.jpg"></li>
+							<li><img src="images/big2.jpg"></li>
+							<li><img src="images/big3.jpg"></li>
+							<li><img src="images/big4.jpg"></li>
+							<li><img src="images/big5.jpg"></li>
+						</ul>
+					</div>
+					<!-- 分享 收藏 举报 -->
+					<p>
+						<a href="" class="fx"><i><img src="images/fx.png" alt=""></i>分享</a>
+						<a href=""><i><img src="images/sc.png" alt=""></i>收藏商品</a>
+						<span>（184人气）</span>
+						<span class="jubao">举报</span>
+					</p>
+				</div>
+				<!-- 右边购物单 -->
+				<div class="gt-con">
+					<div class="tb-wrap">
+						<div class="tb-detail-hd">
+    						<h1 data-spm="1000983">	【鲜有汇聚】俄罗斯甜虾1000克 带头甜虾日料 海鲜低温刺身 甜虾</h1>
+							<p class="newp">刺身甜虾 60-65头/公斤</p>             
+                        </div>
+                        <div class="shop-img">
+                        	<img src="images/shopping-list.png" alt="">
+                        </div>
+                        <!-- 运费 净含量 -->
+                        <div class="tb-meta">
+			     	        <p><span class="mg-gt">运费　</span>上海 至 兰州<i></i> 城关区<i></i> 快递：0.00</p>
+			     	        <p><span>净含量</span>1000g</p>
+			     	        <p></p>
+	        			</div>
+	        			<!-- 销量 -->
+	        			<ul class="gt-parel">
+	        				<li class="first-li">
+	        					<span class="tm-label">月销量</span>
+	        					<span class="tm-count">152</span>	       		
+	        				</li>
+	        				<li>
+	        					<span class="tm-label">累计评价</span>
+	        					<span class="tm-count">144</span>
+	        				</li>
+	        				<li>
+	        					<span class="tm-label">送天猫积分</span>
+	        					<span class="tm-count" style="color:#280;">84</span>
+	        				</li>
+	        			</ul>
+	        			<!-- 数量 -->
+	        			<div class="tb-key">
+	        				<div class="tb-num">
+	        					<span class="tb-meta">数量</span>
+	        					<span class="tb-amount">
+	        						<input type="text" value="1" title="请输入购买量">
+	        						<span class="tb-am-btn">
+	        							<span class="btn-s"><img src="images/sjt.png" alt=""></span>
+	        							<span class="btn-x"><img src="images/xjt.png" alt=""></span>
+	        						</span>
+	        						<span class="tb-am-unit">件 </span>
+	        					</span>
+	        					<em> 库存9609件</em>
+	        				</div>
+	        			</div>
+	        			<!-- 立即购买 加入购物车 -->
+	        			<div class="tb-action">
+	        				<a href="" class="tb-act-buy">
+	        					立即购买
+	        				</a>
+	        				<a href="" class="tb-act-cart"><img src="images/tb-act-cart.png" alt=""> 加入购物车</a>
+	        			</div>
+	        			<!-- 服务 -->
+	        			<p class="serve">
+	        				<span class="serve-item1" style="color:#999">服务承诺</span>
+	        				<span>坏单包退</span>
+	        				<span>正品保证</span>
+	        				<span>极速退款</span>
+	        				<span class="zffs">支付方式<i><img src="images/zffs.png" alt=""></i></span>
+	        			</p>
+					</div>
+				</div>
+			</dvi>
+			<!-- 套餐 -->
+			<div class="set-meal">
+				<div class="meal-inner">
+					<!-- 套餐选项卡 标题-->
+					<ul class="tab-nav">
+						<li class="selected">俄罗斯甜虾</li>
+						<li>鱼腩搭配俄罗斯甜虾</li>
+					</ul>
+					<!-- 套餐选项卡 文本 -->
+					<div class="tab-content">
+						<!-- 大盒子 -->
+						<div class="tab-box">
+							<!-- 盒子1 -->
+							<div class="tab-pannel">
+								<div class="tm-combo-mite">
+									<a href="" class="tm-img">
+										<img src="images/tm-img1.jpg" alt="">
+									</a>
+									<p><span>✔</span>价格 ¥169.00</p>
+								</div>
+
+								<div class="tm-combo-spliter">+</div>
+
+								<div class="tm-combo-mite tm-combo-mite2">
+									<a href="" class="tm-img">
+										<img src="images/TB2OvddEpmWBuNjSspdXXbugXXa_!!2001113363-0-item_pic.jpg_130x130.jpg" alt="">
+									</a>
+									<p><span><img id="select" style="display:none" src="images/select.png" alt=""></span>价格 ¥169.00</p>
+								</div>
+								<div class="tm-combo-action">
+									<p>套餐价：<span>¥169.00</span></p>
+									<p class="act-cktc">查看套餐</p>
+								</div>
+							</div>
+							<!-- 盒子2 -->
+							<div class="tab-pannel">
+								<div class="tm-combo-mite">
+									<a href="" class="tm-img">
+										<img src="images/tm-img1.jpg" alt="">
+									</a>
+									<p><span>✔</span>价格 ¥169.00</p>
+								</div>
+
+								<div class="tm-combo-spliter">+</div>
+
+								<div class="tm-combo-mite tm-combo-mite2">
+									<a href="" class="tm-img">
+										<img src="images/TB2OvddEpmWBuNjSspdXXbugXXa_!!2001113363-0-item_pic.jpg_130x130.jpg" alt="">
+									</a>
+									<p><span><img src="images/xuanxiang.png" alt=""></span>价格 ¥169.00</p>
+								</div>
+								<div class="tm-combo-action">
+									<p>套餐价：<span>¥169.00</span></p>
+									<p class="act-cktc">查看套餐</p>
+								</div>
+							</div>
+
+						</div>
+						
+					</div>
+
+				</div>
+			</div>
+			<!-- 商品详情 累计评论 进店逛逛 -->
+			<div class="det-comment">
+				<!-- 商店 -->
+				<div class="det-com-shop">
+					<div class="shop">
+						<a href="">
+							<h3 id="shop">鲜有汇聚旗舰店 <i> <img src="images/alww2.png" alt=""></i></h3>
+						</a>
+						<div class="shop-cert">
+							<span class="icon">5</span>
+							<div class="text">天猫5年店</div>
+						</div>
+						<div class="shop-btn">
+							<a href="" class="jdgg">进店逛逛</a>
+							<a href="" class="scdp">收藏店铺</a>
+						</div>
+					</div>
+					<a href="" class="adv">
+						<img src="images/shop-adv.jpg" alt="">
+					</a>
+					<!-- 常见问题 -->
+					<div class="questions">
+						<p class="tm-fq-title">喵鲜生常见问题</p>
+						<ul class="tm-fq-list">
+							<li class="tm-fq-content">
+								<p class="tm-fq-quest-content">
+									<span class="tm-fq-index">1、</span>
+									<span class="tm-fq-quest">如何快速找到喵鲜生的商品？</span>
+								</p>
+								<p class="tm-fq-ans">方法一：直接在搜索框中输入miao.tmall.com</p>
+							</li>
+							<li class="tm-fq-content">
+								<p class="tm-fq-quest-content">
+									<span class="tm-fq-index">2、</span>                                 <span class="tm-fq-quest">方法二</span>
+								</p>
+								<p class="tm-fq-ans">在淘宝网（www.taobao.com)的搜索框中输入“喵鲜生”可直接找到</p>
+							</li>
+							<li class="tm-fq-content">
+								<p class="tm-fq-quest-content">
+									<span class="tm-fq-index">3、</span>
+									<span class="tm-fq-quest">方法三</span>
+								</p>
+								<p class="tm-fq-ans">在天猫（www.tmall.com)的顶部导航栏中直接找到“喵鲜生”点击即可！</p>
+							</li>
+						</ul>
+						<div class="tabbar-bg" style="display:none"></div>
+					</div>
+				</div>
+				<!-- 详情 评论 -->
+				<div class="det-com">
+					<div class="det-com-tit">
+						<ul>
+							<li  class="tab-selected">
+								<a href="javascript:;">商品详情</a>
+							</li>
+							<li>
+								<a href="javascript:;">累计评价 <em style="color:#35a"> 144</em></a>
+								
+							</li>
+							<li class="tm-qrcode-icon" style="float:right">
+								<a class="tm-qr-togger" style="padding:0 50px 0 0;border:none">手机购买<i class="tm-qr-togger-icon"></i></a>
+								<img class="tm-qrcode-pic" src="images/qrcode.png" style="display: none;">
+							</li>
+						</ul>
+					</div>
+					<div class="tab-no">
+						<div class="det-com-list">
+						<div class="det-miaoba">
+							<div class="lt-con">
+								<a href=""><img src="images/lt-con.png" alt=""> </a>
+								<span> 喵鲜生精选商品，全程品控</span>
+							</div>
+							<a href="" class="gt-btn">
+								<span>前往喵鲜生></span>
+							</a>
+						</div>
+						<div class="det-text">
+							<p>品牌名称：<b>鲜有汇聚</b></p>
+							<p>产品参数：</p>
+							<ul id="J_AttrUL">
+								<li title="见包装">厂名：见包装</li>
+								<li title="见包装">厂址：见包装</li>
+								<li title="0512-36859438">厂家联系方式：0512-36859438</li>
+								<li title="俄罗斯甜虾">配料表：俄罗斯甜虾</li>
+								<li title="-30℃冷冻保存">储藏方法：-30℃冷冻保存</li>
+								<li title="720">保质期：720 天</li>
+								<li title="无">食品添加剂：无</li>
+								<li title="&nbsp;1000g">净含量:&nbsp;1000g</li>
+								<li title="&nbsp;包装">包装方式:&nbsp;包装</li>
+								<li title="&nbsp;60-65只/千克">包装规格:&nbsp;60-65只/千克</li>
+								<li id="J_attrBrandName" title="&nbsp;鲜有汇聚">品牌:&nbsp;鲜有汇聚</li>
+								<li title="&nbsp;单品">售卖方式:&nbsp;单品</li>
+								<li title="&nbsp;-18℃">生鲜储存温度:&nbsp;-18℃</li>
+								<li title="&nbsp;1000">重量(g):&nbsp;1000</li>
+								<li title="&nbsp;生冻水产">食品工艺:&nbsp;生冻水产</li>
+								<li title="&nbsp;俄罗斯">产地:&nbsp;俄罗斯</li>
+								<li title="&nbsp;1周2次">配送频次:&nbsp;1周2次</li>
+							</ul>
+						</div>
+						<div class="tb-validity" >
+							<img src="images/time.png" width="13" height="13">
+							生产日期:  2018-01-04 至 2018-01-18	
+						</div>
+						</div>
+						<div class="det-img">
+						<img src="images/det-img1.jpg" alt="">
+						<img src="images/det-img2.jpg" alt="">
+						<img src="images/det-img3.png" alt="">
+						</div>
+						<!-- 推荐商品 -->
+						<div class="det-recommend">
+						<ul>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com1.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com2.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com3.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com4.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com5.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com6.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com7.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com8.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com9.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+						</ul>
+						</div>
+						<!-- 店铺评分 -->
+						<div class="shop-garad">
+						<img src="images/dppf.jpg" alt="">
+						<p>刺身甜虾很保存条件高， 我们都-30度保存的，收到货后请尽快食用。常温保存两天左右会出现黑头现象，您收到货有任何问题，务必收货当天立即拍照联系我们处理。不然过时不予受理！！！</p>
+						<img src="images/jbxx.png" alt="">
+						<img src="images/cpzs.jpg" alt="">
+						<img src="images/TB2..63cFXXXXXmXpXXXXXXXXXX_!!2001113363.jpg" alt="">
+						<img src="images/TB2KXL1cFXXXXX3XpXXXXXXXXXX_!!2001113363.jpg" alt="">
+						<img src="images/TB2ZBZacFXXXXXYXXXXXXXXXXXX_!!2001113363.jpg" alt="">
+						<img src="images/TB26FIccFXXXXXFXXXXXXXXXXXX_!!2001113363.jpg" alt="">
+						<img src="images/TB2Lw.acFXXXXahXXXXXXXXXXXX_!!2001113363.jpg" alt="">
+						<img src="images/TB2Oc25cFXXXXXaXpXXXXXXXXXX_!!2001113363.jpg" alt="">
+						<img src="images/TB2H7aWcFXXXXbTXpXXXXXXXXXX_!!2001113363.jpg" alt="">
+						<img src="images/TB2AZIXcFXXXXXvXXXXXXXXXXXX_!!2001113363.jpg" alt="">
+						<img src="images/TB293hfXhSYBuNjSsphXXbGvVXa_!!2001113363.jpg" alt="">
+						<img src="images/TB2POE0cpXXXXbNXXXXXXXXXXXX_!!2001113363.jpg" alt="">
+						<img src="images/TB2yePakpXXXXbBXpXXXXXXXXXX_!!2001113363.jpg" alt="">
+						<img src="images/TB2b5NEppXXXXXCXXXXXXXXXXXX_!!2001113363.png" alt="">
+						</div>
+						<!-- 新晋美食 -->
+						<div class="det-recommend">
+						<ul>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com1.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com2.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com3.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com4.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com5.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com6.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com7.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com8.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com9.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com1.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com2.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+							<li>
+								<div class="dec-recom-img">
+									<a href=""><img src="images/det-com3.jpg" alt=""></a>
+								</div>
+								<div class="back-mask">
+									<p class="miaosu" style="color:#FFF;background:#4A4A4A;">鲜有汇聚进口冰鲜三文鱼刺身中段日料拼盘生鱼片新鲜即食海鲜水产</p>
+									<p class="jiaqian" style="color:#8D8D8D;">￥<span class="zehoujia" style="color:#FF0000;">79.99</span> 
+										<span class="yuanjia">168.00</span>
+									</p>
+									<p class="goumai">
+										<a href="">
+											<img src="images/dec-textImg.png" style="width:60px;height:60px" class="img-ks-lazyload">
+										</a>
+									</p>
+								</div>
+								<div class="snsw">
+									<p>已有<span style="color:#990000; font-weight:600">641504</span>人购买</p>
+								</div>
+							</li>
+						</ul>
+						</div>
+						<div>
+							<img  style="width:790px" src="images/TB1.CUdsY9YBuNjy0FgXXcxcXXa-1572-394.png" alt="">
+						</div>
+					</div>
+					<!-- 累计评论 -->
+					<div class="det-reviews">
+						<h4 class="hd">累计评价 <em class="J_ReviewsCount" style="display: inline;">144</em></h4>
+						<div class="rev-rate">
+							<div class="rate-head">
+								<div class="rate-score">
+									<h4>与描述相符</h4>
+									<strong>4.8</strong>
+									<p>
+										<span class="score-value-no score-value-4d8"></span>
+									</p>
+								</div>
+								<div class="rate-graph">
+									<div class="graph-scroller">
+										<span style="width:96%">
+											<em>4.8</em>
+										</span>
+									</div>
+									<ol class="graph-desc">
+										<li>非常不满</li>
+										<li>不满意</li>
+										<li>一般</li>
+										<li>满意</li>
+										<li>非常满意</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+						<!-- 单选 -->
+						<div class="rate-toolbar">
+							<span class="rate-tl-lt">
+								<input type="radio"> 全部
+								<input type="radio"> 追评(0)
+								<input type="radio"> 图片(6)
+							</span>
+							<span class="rate-tl-gt">
+								<input type="checkbox">有内容
+								<div class="gt-stort">
+									<span class="tm-current">按默认</span>
+									<ul>
+										<li><a href="">按默认</a></li>
+										<li><a href="">按时间</a></li>
+									</ul>		
+								</div>
+							</span>
+						</div>
+						<!-- 评论 -->
+						<div class="reviews-list">
+							<ul>
+								<li>
+									<div class="list-lt">
+										<p>甜虾收到，还没开包，已经买过一次了，明天吃饭时候上图啊！</p>
+										<span>07.10</span>
+									</div>
+									<div class="list-gt">
+										<p>z***i（匿名）</p>
+										<span style="color: #C09459">超级会员</span>
+									</div>
+								</li>
+								<li>
+									<div class="list-lt">
+										<p>甜虾收到，还没开包，已经买过一次了，明天吃饭时候上图啊！</p>
+										<span>07.10</span>
+									</div>
+									<div class="list-gt">
+										<p>z***i（匿名）</p>
+										<span style="color: #C09459">超级会员</span>
+									</div>
+								</li>
+								<li>
+									<div class="list-lt">
+										<p>甜虾收到，还没开包，已经买过一次了，明天吃饭时候上图啊！</p>
+										<span>07.10</span>
+									</div>
+									<div class="list-gt">
+										<p>z***i（匿名）</p>
+										<span style="color: #C09459">超级会员</span>
+									</div>
+								</li>
+								<li>
+									<div class="list-lt">
+										<p>甜虾收到，还没开包，已经买过一次了，明天吃饭时候上图啊！</p>
+										<span>07.10</span>
+									</div>
+									<div class="list-gt">
+										<p>z***i（匿名）</p>
+										<span style="color: #C09459">超级会员</span>
+									</div>
+								</li>
+								<li>
+									<div class="list-lt">
+										<p>甜虾收到，还没开包，已经买过一次了，明天吃饭时候上图啊！</p>
+										<span>07.10</span>
+									</div>
+									<div class="list-gt">
+										<p>z***i（匿名）</p>
+										<span style="color: #C09459">超级会员</span>
+									</div>
+								</li>
+								<li>
+									<div class="list-lt">
+										<p>甜虾收到，还没开包，已经买过一次了，明天吃饭时候上图啊！</p>
+										<span>07.10</span>
+									</div>
+									<div class="list-gt">
+										<p>z***i（匿名）</p>
+										<span style="color: #C09459">超级会员</span>
+									</div>
+								</li>
+								<li>
+									<div class="list-lt">
+										<p>甜虾收到，还没开包，已经买过一次了，明天吃饭时候上图啊！</p>
+										<span>07.10</span>
+									</div>
+									<div class="list-gt">
+										<p>z***i（匿名）</p>
+										<span style="color: #C09459">超级会员</span>
+									</div>
+								</li>
+								<li>
+									<div class="list-lt">
+										<p>甜虾收到，还没开包，已经买过一次了，明天吃饭时候上图啊！</p>
+										<span>07.10</span>
+									</div>
+									<div class="list-gt">
+										<p>z***i（匿名）</p>
+										<span style="color: #C09459">超级会员</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<!-- 分页 -->
+						<div class="rate-page">
+							<div class="rate-paginator">
+								<span class="rate-page-prev">&lt;&lt;上一页</span>
+								<span>1</span>
+								<a href="?page=2">2</a>
+								<a href="?page=3">3</a>
+								<a data-page="2" href="?page=2">下一页&gt;&gt;</a>
+							</div>
+						</div>
+						<!-- 提示 -->
+						<div class="det-reminder">
+							<!-- 安全提示 -->
+							<div class="saftey-rem">
+								<h3>安全提示：</h3>
+								<p>请勿随意接收任何来源不明的文件，请勿随意点击任何来源不明的链接。涉及资金往来的事项请务必仔细核对资金往来信息。 天猫不会以订单有问题，让您提供任何银行卡、密码、手机验证码！遇到可疑情况可在钱盾“诈骗举报”中进行举报, <a href="">安全推荐</a></p>
+								<p>
+									<span>推荐安全软件：</span>
+									<a href=""> <i> <img src="images/qd.png" alt=""></i> 钱盾</a> &nbsp;
+									<a href=""> <i> <img src="images/uc.jpg" alt=""> </i>UC浏览器</a>
+								</p>
+							</div>
+							<!-- 内容声明 -->
+							<div class="con-statement">
+								<h3>内容声明：</h3>
+								<p>天猫为第三方交易平台及互联网信息服务提供者，天猫（含网站、客户端等）所展示的商品/服务的标题、价格、详情等信息内容系由店铺经营者发布，其真实性、准确性和合法性均由店铺经营者负责。天猫提醒用户购买商品/服务前注意谨慎核实。如用户对商品/服务的标题、价格、详情等任何信息有任何疑问的，请在购买前通过阿里旺旺与店铺经营者沟通确认；天猫存在海量店铺，如用户发现店铺内有任何违法/侵权信息，请立即向天猫举报并提供有效线索。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		
+		<!-- 页脚 -->
+		<div class="tm-footer dibu qingchu">
+			<div class="db-1">
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+			</div>
+			<div class="db-2">
+				<dl>
+					<dt>购物指南</dt>
+					<dd>
+						<a href="">免费注册</a>
+						<a href="">开通支付宝</a>
+						<a href="">支付宝充值</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>天猫保障</dt>
+					<dd>
+						<a href="">发票保障</a>
+						<a href="">售后规则</a>
+						<a href="">缺货赔付</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>购物指南</dt>
+					<dd>
+						<a href="">免费注册</a>
+						<a href="">开通支付宝</a>
+						<a href="">支付宝充值</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>天猫保障</dt>
+					<dd>
+						<a href="">发票保障</a>
+						<a href="">售后规则</a>
+						<a href="">缺货赔付</a>
+						<a href="">发票保障</a>
+						<a href="">售后规则</a>
+						<a href="">缺货赔付</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>手机天猫</dt>
+					<dd>
+						<a href=""><img src="img/TB14VZKHXXXXXcAXXXX64VRZFXX-105-105.png"/></a>
+					</dd>
+				</dl>
+			</div>
+			<div class="db-3">
+				<p class="db-3-p">
+					<a href="">关于天猫</a>
+					<a href="">帮助中心</a>
+					<a href="">开放平台</a>
+					<a href="">诚聘英才</a>
+					<a href="">联系我们</a>
+					<a href="">网站合作</a>
+					<a href="">法律声明及隐私权政策</a>
+					<a href="">知识产权</a>
+					<a href="">廉正举报</a>
+					<a href="">规则意见征集</a>
+				</p>
+				<p class="db-3-p">
+					<a href="">阿里巴巴集团</a>| 
+					<a href="">淘宝网</a>| 
+					<a href="">天猫</a>| 
+					<a href="">聚划算</a>| 
+					<a href="">全球速卖通</a>| 
+					<a href="">阿里巴巴国际交易市场</a>| 
+					<a href="">1688</a>| 
+					<a href="">阿里妈妈</a>| 
+					<a href="">飞猪</a>| 
+					<a href="">阿里云计算</a>| 
+					<a href="">YunOS</a>| 
+					<a href="">阿里通信</a>| 
+					<a href="">万网</a>| 
+					<a href="">高德</a>| 
+					<a href="">UC</a>| 
+					<a href="">友盟</a>| 
+					<a href="">虾米</a>| 
+					<a href="">阿里星球</a>| 
+					<a href="">来往</a>| 
+					<a href="">钉钉</a>|
+					<a href="">支付宝</a>
+				</p>
+				<div class="db-3-xinxi">
+					增值电信业务经营许可证： <a href="">浙B2-20110446</a> 网络文化经营许可证：<a href="">浙网文[2015]0295-065号</a> <a href="">12318举报</a></br>
+					互联网药品信息服务资质证书编号：<a href="">浙-（经营性）-2017-0005</a>   <a href=""><img src="img/TB1yEqRPXXXXXXPXpXXXXXXXXXX-20-20.png" alt="" /> 浙公网安备 33010002000120号</a>
+					<b>© 2003-2017 TMALL.COM 版权所有</b>
+					<p>
+						<a href=""><img src="img/TB1j5gtHXXXXXXjaXXXydRxIFXX-73-30.jpg"/></a>
+						<a href=""><img src="img/TB13mgzHXXXXXbjXVXXzby4IVXX-80-30.jpg"/></a>
+					</p>
+				</div>
+			</div>	
+		</div>
+	</div>
+</body>
+</html>

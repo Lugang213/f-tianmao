@@ -1,0 +1,202 @@
+
+ body{
+    margin:0;
+    padding:0;
+    background:url(bg.gif) 0 0 repeat #f7f5f5;
+    color:#333;
+    font-family:Cambria, Georgia, serif;
+    font-size:14px;overflow-x:hidden;
+}
+a{
+    color:#35BFFF;
+    text-decoration:none;
+}
+a:hover, a:active{
+    color:#91DCFF;
+} 
+/* clearfix */
+.clearfix{clear:both;}
+
+/* wrapper */
+#wrapper{
+    margin-top:20px;
+    width:100%;
+}
+#container{
+	position:relative;
+	width:1000px;
+	margin:0 auto;
+    left:10px;
+	overflow: hidden;
+}
+.grid{
+    width:240px;
+    min-height:100px;
+    background:#fff;
+    margin:10px 0;
+    font-size:12px;
+    float:left;
+    box-shadow:0 1px 3px rgba(34,25,25,0.4);
+    -moz-box-shadow:0 1px 3px rgba(34,25,25,0.4);
+    -webkit-box-shadow:0 1px 3px rgba(34,25,25,0.4);
+    -webkit-transition:top 1s ease, left 1s ease;
+    -moz-transition:top 1s ease, left 1s ease;
+    -o-transition:top 1s ease, left 1s ease;
+    -ms-transition:top 1s ease, left 1s ease;
+}
+.grid strong{
+    border-bottom:1px solid #ccc;
+    margin:10px 0;display:block;
+    padding:0 0 5px;
+    font-size:17px;
+}
+.grid .meta{
+    text-align:right;
+    color:#777;
+    font-style:italic;
+}
+.grid .imgholder img{
+    max-width:100%;
+    background:#ccc;
+    display:block;
+    background:url(images/loding.gif) no-repeat center;
+}
+
+
+div.grid {
+    width: 240px;
+    height: 360px;
+    margin: 0 10px 10px 0;
+    background: #fff;
+    float: left;
+    display: inline;
+    overflow: hidden;
+    position: relative;
+}
+div.grid .pic {
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+div.grid .item-title-wrapper {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+}
+div.grid .item-title-bg {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 20px;
+    background: #000;
+    opacity: .5;
+}
+div.grid .item-title {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70%;
+    padding: 0 15%;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+div.grid .info-box {
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    overflow: hidden;
+}
+div.grid .desc {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #f40b4c;
+    font-family: 'Microsoft YaHei';
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+div.grid .box-sep {
+    display: block;
+    height: 1px;
+    background: #ee0d3b;
+    opacity: .2;
+    font-size: 0;
+    line-height: 0;
+}
+ div.grid .info-detail {
+    position: relative;
+}
+div.grid .logo {
+    height: 35px;
+    padding: 10px 0 10px 15px;
+}
+div.grid .action-box {
+    height: 30px;
+    overflow: hidden;
+}
+div.grid .price-box {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    text-align: right;
+    width: 138px;
+    overflow: hidden;
+}
+div.grid .oprice,div.grid .price {
+    height: 20px;
+    line-height: 20px;
+    color: #a1a1a1;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'arail,Microsoft Yahei';
+}
+div.grid .oprice {
+    margin-top: 8px;
+}
+ div.grid .price {
+    font-weight: 700;
+    color: #ee0d3b;
+}
+ div.grid .oprice span {
+    text-decoration: line-through;
+}
+div.grid .price .yen {
+    font-weight: 400;
+    font-family: arial;
+    font-size: 12px;
+}
+ div.grid .price span {
+    font-size: 16px;
+    font-family: helvetica;
+}
+ div.grid .action-box {
+    height: 30px;
+    overflow: hidden;
+}
+div.grid .btn {
+	height:30px;
+    float: right;
+    background: #ee0d3b;
+    color: #fff;
+    border: 1px solid #ee0d3b;
+    margin-right: 4px;
+    text-align: center;
+    line-height: 30px;
+}
+div.grid  .no-coupon .btn {
+    width: 230px;
+}

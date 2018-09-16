@@ -1,0 +1,200 @@
+.reg-wrap{
+	width: 990px;
+    margin: 0 auto;
+    color: #3c3c3c;
+    /*position: relative;*/
+}
+.reg-wrap .steps {
+    height: 46px;
+    border-bottom: 2px solid #e6e6e6;
+    position: relative;
+}
+.steps ol {
+    width: 720px;
+    margin: 0 auto;
+}
+.steps ol li.active {
+    color: #3e3e3e;
+    border-bottom: 2px solid #ff4700;
+}
+.steps-4 ol li {
+    width: 150px;
+    padding-left: 30px;
+}
+.steps ol li {
+    display: inline;
+    float: left;
+    width: 140px;
+    padding-left: 34px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #999;
+    font-family: "\5FAE\8F6F\96C5\9ED1","\534E\6587\7EC6\9ED1","\9ED1\4F53",arial;
+}
+.steps ol li i {
+    display: inline-block;
+    zoom: 1;
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    font-style: normal;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+    background: url(../images/step-icon1.png) no-repeat 0 0;
+}
+.steps ol li.active i{
+	background:url(../images/step-icon.png)  no-repeat 0 0;
+}
+
+/*注册内容*/
+.reg-cont{
+	padding:50px 0;
+}
+.form-list{
+	width:720px;
+	font-size: 14px;
+	margin:0 auto;
+}
+.form-group{
+	padding:10px 0;
+}
+.form-item {
+    padding: 10px 0 10px 260px;
+    line-height: 36px;
+    zoom: 1;
+    overflow: hidden;
+}
+.form-item .form-label {
+    display: inline;
+    float: left;
+    margin-left: -260px;
+    width: 240px;
+    height: 37px;
+    line-height: 37px;
+    text-align: right;
+}
+/**/
+.tab-select {
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: 0;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    padding-left: 10px;
+    height: 35px;
+    /*border-right: 0;*/
+    font-weight: 700;
+    overflow: hidden;
+}
+.tab-select .text {
+    float: left;
+    width: 85px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 35px;
+}
+.tab-select .code {
+    float: right;
+    margin-right: 25px;
+}
+.tab-select .tab-icon{
+	display: block;
+    position: absolute;
+    top: 15px;
+    right: 8px;
+    width: 10px;
+    height: 5px;
+    background: url(../images/tab-icon.png) -10px -25px no-repeat;
+}
+.tab-select img{
+	display: block;
+	width: 10px;
+    height: 5px;
+}
+.mobile-input {
+    width: 147px;
+    height:33px;
+    float: left;
+   padding-left: 5px;
+}
+.hgyz{
+	width:300px;
+}
+.btn-next{
+	padding:7px 75px;
+	border:none;
+	background:#ededed;
+	color:#fff;
+	font-size: 14px;
+	font-weight: 700;
+	margin-left: 260px;
+	margin-top: 10px;
+}
+/*遮罩层*/
+.reg-mask{
+	width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #3e3e3e;
+    border: 2px solid #dedede;
+    border-top: 2px solid #ff4a00;
+    background-color: #FFF;
+    position: absolute;
+    top:136px;
+    left:400px;
+    z-index: 999999;
+    overflow: hidden;
+}
+.mask-close{
+	display: inline-block;
+    zoom: 1;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 24px;
+    color: #ff0036;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.mask-title h3{
+	font-size: 16px;
+	color:#3e3e3e;
+}
+.mask-text p{
+	margin-top:10px;
+	margin-left: 5px;
+}
+.mask-text strong{
+	font-weight: bold;
+}
+.colorRed{
+	color:#ff0036;
+	font-size: 14px;
+	font-weight: 700;
+}
+.btn {
+    display: inline-block;
+    zoom: 1;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 20px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    background: #ff0036;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    min-width: 180px;
+}

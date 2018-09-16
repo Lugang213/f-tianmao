@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>天猫注册</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/register.css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/register.js"></script>
+</head>
+<body>
+	<div class="box">
+		<div class="reg-wrap">
+		<!-- 步骤导航 s-->
+		<div class="steps steps-4">
+			<ol>
+	            <li class="active">
+	            	<i>1</i>
+	            	<span class="tsl">设置用户名</span>
+	            </li>
+				<li>
+					<i>2</i>
+					<span class="tsl">填写账号信息</span>
+				</li>
+				 <li>
+				 	<i>3</i><span class="tsl">设置支付方式</span>
+				 </li>		
+				 <li>
+				 	<i class="iconfont">✔</i>
+				 	<span class="tsl">注册成功</span>
+				 </li>
+			</ol>
+		</div>
+		<!-- 步骤导航 e-->
+
+		<!-- 注册内容 s-->
+		<div class="reg-cont">
+			<form action="#">
+				<div class="form-list">
+					<div class="form-group">
+						<div class="form-item">
+							<span class="form-label tsl">手机号</span>
+							<!-- 地区选择 -->
+							<div class="tab-select">
+								<div class="tab-name">
+									<span class="text">中国大陆</span>
+									<span class="code">+86</span>
+									<i class="tab-icon"><img src="images/tab-icon.png" alt=""> </i>
+								</div>
+							</div>
+							<!-- 输入手机号 -->
+							<input class="form-text mobile-input err-input" name="mobile" type="text" value="" placeholder="请输入你的手机号码">
+						</div>
+						<div class="form-item">
+							<span class="form-label tsl">验证</span>
+							<img src="images/hgyz.png" alt="" class="hgyz">
+						</div>
+						<button class="btn-next">下一步</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<!-- 注册内容 e-->
+
+		<!-- 遮罩层 s-->
+		<div class="reg-mask">
+			<a href="index.html" class="mask-close"><img src="images/close.png" alt=""></a>
+			<div class="mask-title">
+				<h3>注册协议</h3>
+			</div>
+			<div class="mask-text">
+	            <p><strong>【审慎阅读】</strong>您在申请注册流程中点击同意前，应当认真阅读以下协议。<strong style="text-decoration: underline">请您务必审慎阅读、充分理解协议中相关条款内容，其中包括：</strong></p>
+	            <p>1、<strong style="text-decoration: underline">与您约定免除或限制责任的条款；</strong></p>
+	            <p>2、<strong style="text-decoration: underline">与您约定法律适用和管辖的条款；</strong></p>
+	            <p>3、<strong style="text-decoration: underline">其他以粗体下划线标识的重要条款。</strong></p>
+	            <p>如您对协议有任何疑问，可向平台客服咨询。</p>
+	            <p><strong>【特别提示】</strong>当您按照注册页面提示填写信息、阅读并同意协议且完成全部注册程序后，即表示您已充分阅读、理解并接受协议的全部内容。如您因平台服务与淘宝发生争议的，适用《淘宝平台服务协议》处理。如您在使用平台服务过程中与其他用户发生争议的，依您与其他用户达成的协议处理。</p>
+	            <p><strong style="text-decoration: underline">阅读协议的过程中，如果您不同意相关协议或其中任何条款约定，您应立即停止注册程序。</strong></p>
+
+
+	            <p><a href="" target="_blank" class="colorRed">《淘宝平台服务协议》</a></p>
+	            <p><a href="" target="_blank" class="colorRed">《法律声明及隐私权政策》</a></p>
+	            <p><a href="" target="_blank" class="colorRed">《支付宝服务协议》</a></p>
+	            <p style="text-align: center">
+	                <button class="btn btn-large" type="button" id="J_AgreementBtn">同意协议</button>
+	            </p>
+	        
+			</div>
+		</div>
+
+	</div>
+	</div>
+	
+</body>
+</html>
